@@ -1,13 +1,13 @@
-** Hello **
+# Hello
 
 **_ Dependencies _**
 
-# We will be using air for live reloading and fiber for api use!
+### We will be using air for live reloading and fiber for api use!
 
 -   go get github.com/gofiber/fiber/v2
 -   go get github.com/air-verse/air@latest
 
-````toml`
+```toml
 
 # basic air toml set up for live reloading
 
@@ -21,8 +21,5 @@ cmd = "go build -o {{.Output}} {{.Input}}" # The command to build the project
 exclude = ["tmp/*", "client/*"] # Specifies the directories to be excluded from monitoring for changes
 include = ["**/*.go"] # Specifies the file patterns to be included for monitoring.
 ignore = ["tmp/*"] # Specifies the files or directories to be ignored when triggering a build.
-
-```
-
 
 ```
