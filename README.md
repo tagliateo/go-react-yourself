@@ -2,10 +2,12 @@
 
 **_ Dependencies _**
 
-### We will be using air for live reloading and fiber for api use!
+#### We will be using air for live reloading and fiber for api use!
 
--   go get github.com/gofiber/fiber/v2
--   go get github.com/air-verse/air@latest
+```golang
+go get github.com/gofiber/fiber/v2
+go get github.com/air-verse/air@latest
+```
 
 ```toml
 
